@@ -14,13 +14,15 @@ If the user has not uploaded any documents, display using conditional rendering 
 ## How it Went
 This is my first time working with Vue.js, so implementing this frontend uploading and previewing functionality was an exciting challenge. 
 
-I ran into persistent stack-overflow errors when attempting to convert the given folder into an existing Vue-SPA. I believe this is simply due to the lack of node modules and jsons. I used my terminal as follows:
+I ran into persistent stack-overflow errors when attempting to convert the given folder into an existing Vue-SPA. I believe this is simply due to the lack of node modules and jsons. 
+
+sooooo I started over. 
 
 ```bash
 npm create vue@latest
 ```
 
-Once my app was extant I deleted all unnecessary filler and filled in with the seed from the assignment task.
+Once my app was extant I deleted all the unnecessary boilerplate filler and filled in with the project seed from the assignment task.
 
 I was able to accomplish the needed Vue functionality for dynamic updates. However, I encountered an issue when clearing the list of documents upon user action.
 
@@ -36,7 +38,3 @@ I tried to ensure a balance between functionality and aesthetics without spendin
 </li>
 </ul>
 In summary, while I do not feel that I have fully completed the challenge, I'll be resolving this SWIFTly. In general, I'm satisfied with this as a demonstration of my capability. I look forward to further refining this SPA to meet project requirements.
-
-
-
-
