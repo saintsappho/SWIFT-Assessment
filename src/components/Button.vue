@@ -14,6 +14,7 @@ export default {
     }
   },
   methods: {
+    // allow for custom and dynmamic click events
     handleClick() {
       this.onClick();
     }
@@ -21,10 +22,3 @@ export default {
 };
 </script>
 
-<style scoped>
-.btn {
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-}
-</style>

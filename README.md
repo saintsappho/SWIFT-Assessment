@@ -12,20 +12,30 @@ If the user has not uploaded any documents, display using conditional rendering 
 </ul> 
 
 ## How it Went
-Implementing the frontend for document uploading and previewing was an engaging challenge. I successfully converted the provided app.txt to app.js, I started from scratch with Vue functionality for dynamic updates. However, I encountered an issue with clearing the list of documents upon user action.
+This is my first time working with Vue.js, so implementing this frontend uploading and previewing functionality was an exciting challenge. 
 
-Despite implementing the functionality to clear the list, it seems there's a hiccup in the code preventing it from functioning as intended. 
+I ran into persistent stack-overflow errors when attempting to convert the given folder into an existing Vue-SPA. I believe this is simply due to the lack of node modules and jsons. I used my terminal as follows:
+
+```bash
+npm create vue@latest
+```
+
+Once my app was extant I deleted all unnecessary filler and filled in with the seed from the assignment task.
+
+I was able to accomplish the needed Vue functionality for dynamic updates. However, I encountered an issue when clearing the list of documents upon user action.
+
+Despite implementing the functionality to clear the list, it seems there's a hiccup in the code preventing it from functioning as intended. I am confident that I will be able solve this issue and many others with one more day's practice in Vue. 
 
 <ul>
 <li>
-1.5 hours of learning and solo-debugging could not yet solve this problem. I'm excited to dive deeper into debugging to identify and resolve the issue after discussing the specific needs of the clients.
+I applied 1.5 hours of self-guided learning and solo-debugging but could not yet solve this problem. I'm excited to dive deeper into debugging to identify and resolve the issue after discussing the specific needs of the clients.
 </li>
 <li>
 I worked on improving the user experience through styling and added a feature to convert the list of uploaded documents into a more informative component. 
 I tried to ensure a balance between functionality and aesthetics without spending too much time in CSS beautification, as I worked to follow the law of diminishing margins.
 </li>
 </ul>
-In summary, while I encountered a challenge with clearing the list of documents, I'm committed to resolving it swiftly. Overall, I'm pleased with the progress made and look forward to refining the functionality to meet the project requirements seamlessly.
+In summary, while I do not feel that I have fully completed the challenge, I'll be resolving this SWIFTly. In general, I'm satisfied with this as a demonstration of my capability. I look forward to further refining this SPA to meet project requirements.
 
 
 
