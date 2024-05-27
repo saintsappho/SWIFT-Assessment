@@ -11,7 +11,7 @@ If the user has not uploaded any documents, display using conditional rendering 
 <li>Once this functionality is complete, add some styling and design to enhance the user experience, and one other feature such as converting the list of uploaded documents to a component with other information from the doc. A clear button that clears the list. Anything. Just keep in mind the law of diminishing margins! Timeliness and functionality are often most important to clients. Good luck!  </li>
 </ul> 
 
-## How it Went,
+## How it Went
 Implementing the frontend for document uploading and previewing was an engaging challenge. I successfully converted the provided app.txt to app.js, I started from scratch with Vue functionality for dynamic updates. However, I encountered an issue with clearing the list of documents upon user action.
 
 Despite implementing the functionality to clear the list, it seems there's a hiccup in the code preventing it from functioning as intended. 
