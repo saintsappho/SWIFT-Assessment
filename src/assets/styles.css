@@ -1,0 +1,81 @@
+/* Add this to the existing styles.css */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Jivitri', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  margin: 3rem;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #1b995e;
+  color: white;
+  text-align: center;
+}
+
+#user-docs {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.22);
+  margin: 3rem;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+#user-input {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.22);
+  margin: 3rem;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+#drop-zone {
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+#drop-zone p {
+  color: #aaa;
+}
+
+iframe {
+  border: none;
+  margin-top: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: hsla(160, 100%, 37%, 1);
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  color: hsla(160, 100%, 37%, 0.8);
+  box-shadow: inset 0 0 10px hsla(160, 88%, 16%, 0.8);
+}
+
+.input {
+  display;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
